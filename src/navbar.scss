@@ -1,0 +1,20 @@
+.navbar {
+    height: 3rem;
+    margin: 0px 50px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0d8d8;
+
+    .brand {
+        height: 2rem;
+    }
+
+    .person {
+        background-color: lightgreen;
+        border-radius: 25px;
+
+        .personIcon {
+            color: white;
+        }
+    }
+}

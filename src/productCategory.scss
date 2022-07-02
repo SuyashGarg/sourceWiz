@@ -1,0 +1,36 @@
+.category {
+    background-color: #80808017;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 15px;
+
+    .categoryTitle {
+        font-weight: bold;
+
+        .chevRight {
+            float: right;
+        }
+    }
+    
+    .product { 
+        color: #949494;
+        font-size: 0.8rem;
+    }
+    .imgRow {
+        margin: 0px;
+        padding-top: 5px;
+
+        .prodImg {
+            padding: 0px;
+
+            .thumbnail {
+                height: 90px;
+                width: 90px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+                background: white;
+            }
+        }        
+    }
+}
